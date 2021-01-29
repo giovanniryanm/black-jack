@@ -8,6 +8,7 @@ class Player:
 		self.name = name
 		self.all_cards = []
 		self.coin = 5000
+		self.value = 0
 
 	def add_cards(self,new_cards):
 		if type(new_cards) == type([]):
